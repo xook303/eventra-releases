@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title desc">
+  <title id="title">EVENTRA</title>
+  <desc id="desc">Управление мероприятием. Event control, in one place.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101923"/><stop offset="1" stop-color="#0c121a"/></linearGradient>
+    <linearGradient id="accent"><stop stop-color="#5fe0ae"/><stop offset="1" stop-color="#3aa7ba"/></linearGradient>
+  </defs>
+  <rect width="1280" height="360" rx="20" fill="url(#bg)"/>
+  <path d="M850 0v360M990 0v360M1130 0v360M810 90h470M810 180h470M810 270h470" stroke="#1d2c3b" stroke-width="1"/>
+  <rect x="870" y="64" width="326" height="232" rx="12" fill="#101923" stroke="#2b4050"/>
+  <rect x="888" y="84" width="108" height="8" rx="4" fill="#5fe0ae"/>
+  <circle cx="1176" cy="88" r="4" fill="#5fe0ae"/>
+  <path d="M888 108h290" stroke="#2b4050"/>
+  <g fill="#152331" stroke="#2b4050">
+    <rect x="888" y="126" width="88" height="64" rx="6"/><rect x="989" y="126" width="88" height="64" rx="6"/><rect x="1090" y="126" width="88" height="64" rx="6"/>
+    <rect x="888" y="204" width="88" height="64" rx="6"/><rect x="989" y="204" width="88" height="64" rx="6"/><rect x="1090" y="204" width="88" height="64" rx="6"/>
+  </g>
+  <g stroke-width="3" stroke-linecap="round"><path d="M900 179h64" stroke="#5fe0ae"/><path d="M1001 179h64" stroke="#5aaadd"/><path d="M1102 179h64" stroke="#c797dc"/><path d="M900 257h64" stroke="#d9a441"/><path d="M1001 257h64" stroke="#5aaadd"/><path d="M1102 257h64" stroke="#5fe0ae"/></g>
+  <rect x="64" y="64" width="42" height="5" rx="2.5" fill="url(#accent)"/>
+  <text x="64" y="160" fill="#eef4fa" font-family="Segoe UI,Arial,sans-serif" font-size="68" font-weight="700" letter-spacing="9">EVENTRA</text>
+  <text x="66" y="213" fill="#a6b5c6" font-family="Segoe UI,Arial,sans-serif" font-size="24">Управление мероприятием</text>
+  <text x="66" y="250" fill="#a6b5c6" font-family="Segoe UI,Arial,sans-serif" font-size="24">Event control, in one place.</text>
+  <text x="66" y="310" fill="#5fe0ae" font-family="Segoe UI,Arial,sans-serif" font-size="13" letter-spacing="3">WINDOWS · PORTABLE · ALPHA</text>
+</svg>
