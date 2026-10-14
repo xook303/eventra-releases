@@ -33,7 +33,7 @@
 
 **[Открыть страницу релизов →](https://github.com/xook303/eventra-releases/releases)**
 
-Версия **0.1.1** подготовлена как черновик и ещё не доступна для публичного скачивания. После публикации пакет появится на странице релизов.
+Текущая версия: **[0.1.1](https://github.com/xook303/eventra-releases/releases/tag/v0.1.1)** · **[Скачать ZIP для Windows x64](https://github.com/xook303/eventra-releases/releases/download/v0.1.1/Eventra-0.1.1-windows-x64-portable.zip)**
 
 1. Скачайте `Eventra-VERSION-windows-x64-portable.zip` из раздела **Assets** нужного релиза.
 2. Распакуйте архив целиком в отдельную папку.
@@ -88,7 +88,7 @@ A desktop application for preparing and running events. Organize media, prepare 
 
 **[Browse releases →](https://github.com/xook303/eventra-releases/releases)**
 
-Version **0.1.1** is prepared as a draft and is not yet available for public download. Its package will appear on the releases page after publication.
+Current version: **[0.1.1](https://github.com/xook303/eventra-releases/releases/tag/v0.1.1)** · **[Download Windows x64 ZIP](https://github.com/xook303/eventra-releases/releases/download/v0.1.1/Eventra-0.1.1-windows-x64-portable.zip)**
 
 1. Download `Eventra-VERSION-windows-x64-portable.zip` from the release **Assets**.
 2. Extract the entire archive into a separate folder.
