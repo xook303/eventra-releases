@@ -27,13 +27,13 @@
 | **Сцены** | Последовательность действий и запуск следующего шага через GO |
 | **Media Pads** | Быстрый запуск аудио и видео из общих банков и банков сцен |
 | **Второй экран** | Видео, изображения, PDF и заставка для зрителей |
-| **Модули** | Музыкальное лото, таймер и вспомогательные инструменты |
+| **Модули** | Таймер и вспомогательные инструменты |
 
 ### Скачать и запустить
 
 **[Открыть страницу релизов →](https://github.com/xook303/eventra-releases/releases)**
 
-Текущая версия: **[0.1.1](https://github.com/xook303/eventra-releases/releases/tag/v0.1.1)** · **[Скачать ZIP для Windows x64](https://github.com/xook303/eventra-releases/releases/download/v0.1.1/Eventra-0.1.1-windows-x64-portable.zip)**
+Публичное скачивание временно приостановлено: готовится обновлённый пакет. Доступные сборки появятся на странице релизов после проверки.
 
 1. Скачайте `Eventra-VERSION-windows-x64-portable.zip` из раздела **Assets** нужного релиза.
 2. Распакуйте архив целиком в отдельную папку.
@@ -80,7 +80,7 @@ A desktop application for preparing and running events. Organize media, prepare 
 | **Scenes** | Action sequences with GO to trigger the next step |
 | **Media Pads** | Quick audio and video cues from shared and scene banks |
 | **Audience display** | Video, images, PDF, and an event splash screen |
-| **Modules** | Music lotto, a timer, and supporting tools |
+| **Modules** | A timer and supporting tools |
 
 <a id="installation"></a>
 
@@ -88,7 +88,7 @@ A desktop application for preparing and running events. Organize media, prepare 
 
 **[Browse releases →](https://github.com/xook303/eventra-releases/releases)**
 
-Current version: **[0.1.1](https://github.com/xook303/eventra-releases/releases/tag/v0.1.1)** · **[Download Windows x64 ZIP](https://github.com/xook303/eventra-releases/releases/download/v0.1.1/Eventra-0.1.1-windows-x64-portable.zip)**
+Public downloads are temporarily paused while an updated package is prepared. Builds will appear on the releases page after validation.
 
 1. Download `Eventra-VERSION-windows-x64-portable.zip` from the release **Assets**.
 2. Extract the entire archive into a separate folder.
