@@ -37,7 +37,7 @@
 
 Ссылка автоматически открывает последний опубликованный стабильный релиз. ZIP находится в разделе **Assets**. При выходе новой версии адрес ссылки останется тем же.
 
-Публичное скачивание временно приостановлено: готовится обновлённый пакет. Доступные сборки появятся на странице релизов после проверки.
+Доступна публичная версия **0.1.1** для Windows x64. Скачайте полный Portable ZIP по ссылке выше. Если у вас уже установлена 0.1.1, распакуйте новый пакет в отдельную папку: замена пакета с тем же номером не запускает автоматическое обновление.
 
 1. Скачайте `Eventra-VERSION-windows-x64-portable.zip` из раздела **Assets** нужного релиза.
 2. Распакуйте архив целиком в отдельную папку.
@@ -94,7 +94,7 @@ A desktop application for preparing and running events. Organize media, prepare 
 
 This link automatically opens the latest published stable release. Download the ZIP from **Assets**. The link stays the same when a new version is released.
 
-Public downloads are temporarily paused while an updated package is prepared. Builds will appear on the releases page after validation.
+Public version **0.1.1** for Windows x64 is available. Download the complete Portable ZIP using the link above. If 0.1.1 is already installed, extract the new package into a separate folder: a same-version package replacement does not trigger an automatic update.
 
 1. Download `Eventra-VERSION-windows-x64-portable.zip` from the release **Assets**.
 2. Extract the entire archive into a separate folder.
