@@ -11,6 +11,8 @@
 
 [Русский](#ru) · [English](#en) · [Релизы / Releases](https://github.com/xook303/eventra-releases/releases)
 
+**[Скачать / Download latest](https://github.com/xook303/eventra-releases/releases/latest)**
+
 </div>
 
 ---
@@ -31,7 +33,9 @@
 
 ### Скачать и запустить
 
-**[Открыть страницу релизов →](https://github.com/xook303/eventra-releases/releases)**
+**[Скачать последнюю версию для Windows →](https://github.com/xook303/eventra-releases/releases/latest)**
+
+Ссылка автоматически открывает последний опубликованный стабильный релиз. ZIP находится в разделе **Assets**. При выходе новой версии адрес ссылки останется тем же.
 
 Публичное скачивание временно приостановлено: готовится обновлённый пакет. Доступные сборки появятся на странице релизов после проверки.
 
@@ -86,7 +90,9 @@ A desktop application for preparing and running events. Organize media, prepare 
 
 ### Download and run
 
-**[Browse releases →](https://github.com/xook303/eventra-releases/releases)**
+**[Download the latest Windows version →](https://github.com/xook303/eventra-releases/releases/latest)**
+
+This link automatically opens the latest published stable release. Download the ZIP from **Assets**. The link stays the same when a new version is released.
 
 Public downloads are temporarily paused while an updated package is prepared. Builds will appear on the releases page after validation.
 
