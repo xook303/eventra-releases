@@ -9,15 +9,15 @@
 **Музыка · Видео · Сцены · Второй экран**  
 **Music · Video · Scenes · Audience display**
 
-[Скачать Event Studia 0.2.7](https://github.com/xook303/eventra-releases/releases/latest/download/EventStudia-0.2.7-windows-x64-portable.zip) · [Изменения / Release notes](https://github.com/xook303/eventra-releases/releases/tag/v0.2.7)
+[Скачать веб-установщик Event Studia](https://github.com/xook303/eventra-releases/releases/latest/download/EventStudiaSetup.exe) · [Изменения / Release notes](https://github.com/xook303/eventra-releases/releases/tag/v0.2.7)
 
 [Иконка для ярлыка](https://github.com/xook303/eventra-releases/releases/latest/download/EventStudia.ico)
 
-[Веб-установщик 0.1.0](https://github.com/xook303/eventra-releases/releases/download/v0.2.7/EventStudia-WebSetup-0.1.0.exe) — устанавливает последнюю стабильную версию, создаёт ярлыки и пункт удаления Windows.
+[Новый NSIS-веб-установщик](https://github.com/xook303/eventra-releases/releases/latest/download/EventStudiaSetup.exe) — скачивает последнюю стабильную версию, устанавливает программу, создаёт ярлыки и стандартное удаление Windows.
 
-В обычной сборке один файл запуска — **EventStudia.exe**. Для удаления используйте **Uninstall.exe**. Полная очистка настроек, медиатеки, кэша и модулей включается отдельной галочкой; исходные внешние медиа и проекты сохраняются.
+В обычной сборке один файл запуска — **EventStudia.exe**. Для новой NSIS-установки используйте удаление через настройки Windows. Пользовательские проекты и внешние медиа сохраняются.
 
-Windows x64 · Portable · Stable
+Windows x64 · NSIS / Portable · Stable
 
 </div>
 
@@ -32,7 +32,7 @@ Event Studia — программа для управления медиа на 
 - Стабильные подписанные обновления через GitHub.
 
 ### Установка
-Распакуйте архив целиком в новую папку и запустите **EventStudia.exe**. Оставьте рядом папки `runtime`, `ffmpeg` и `resources`. Не переносите один EXE отдельно. При первом запуске штатные модули размещаются в `modules/`.
+Скачайте **EventStudiaSetup.exe** и следуйте мастеру. Он загрузит последнюю стабильную версию и проверит подпись Ed25519 и SHA-256 пакета. Установка по умолчанию — Program Files. Подписи Windows Authenticode пока нет: возможно предупреждение «Неизвестный издатель». Удаление — через настройки Windows. Portable ZIP остаётся отдельным вариантом в релизе.
 
 ### Обновление со старых версий
 Откройте **Настройки → Обновления → Проверить обновления**. Перед установкой сохраните проект, остановите воспроизведение и закройте второй экран.
