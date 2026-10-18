@@ -17,55 +17,37 @@
 
 ---
 
-<!-- eventra-stable-025:start -->
+<!-- eventra-stable-026:start -->
 
-## Eventra 0.2.5 · Stable
+## Eventra 0.2.6 · Stable
 
-**[Скачать последнюю версию / Download latest](https://github.com/xook303/eventra-releases/releases/latest/download/Eventra-0.2.5-windows-x64-portable.zip)** · [Изменения / Release notes](https://github.com/xook303/eventra-releases/releases/tag/v0.2.5)
+**[Скачать последнюю версию / Download latest](https://github.com/xook303/eventra-releases/releases/latest/download/Eventra-0.2.6-windows-x64-portable.zip)** · [Изменения / Release notes](https://github.com/xook303/eventra-releases/releases/tag/v0.2.6)
 
 
-## Русский
+## Изменения после 0.2.5
+- Исправлена раскладка файлового менеджера в Windows-сборке: ширина боковой панели, положение заголовков, отступы и оформление полос прокрутки.
+- Исправлено переключение категорий медиатеки: пустые поля расположения больше не вызывают ошибку «Некорректное расположение медиатеки».
+- Кнопка закрытия файлового менеджера использует штатное закрытие модуля без лишней пустой строки сверху.
+- Восстановлены тонкие разделители под верхней панелью и рядом с левым меню. Разделитель между файловым менеджером и медиаплеером позволяет менять ширину панели мышью.
+- Надпись «Добавить» в пустых медиапэдах выровнена по центру; номера всегда видны в углу. Исправлены границы панели рядом с медиаплеером и нижняя линия.
+- При обновлении старые подписанные штатные `.evmod` заменяются новыми пакетами того же издателя. Предыдущие пакеты сохраняются в резервной копии. Неизвестные, изменённые и более новые пакеты не заменяются.
 
-Публичная Windows x64 Portable-сборка без музыкального лото.
+- Кнопка полного экрана и F11 используют весь текущий монитор. F11 передаётся в CORE из встроенных модулей, в том числе при фокусе в поле ввода.
 
-### Что изменилось после 0.2.0
-- Модули поставляются подписанными контейнерами `.evmod`. При первом запуске проверенные штатные пакеты размещаются в `modules/`; старые папки сохраняются.
-- Работа с проектами `.evnt`: новый проект, открытие, сохранение, «Сохранить как» и последние проекты. Название и несохранённые изменения отображаются в меню «Файл».
-- Быстрый старт можно показывать при запуске и включать в настройках.
-- Верхняя панель собрана в группы с одинаковыми разделителями. Полноэкранная кнопка находится рядом с управлением окном; активный второй экран выделяется зелёным.
-- Единая кнопка проверки готовности находится внизу слева.
-- Обновлён таймер: ввод ММ:СС, быстрые длительности, прямой и обратный отсчёт, вывод гостям на второй экран и встроенный сигнал окончания. Мини-таймер и большой модуль используют один отсчёт. Сигнал можно выключить; занятый канал B не прерывается.
-- Упрощены карточки медиапэдов, размеры кнопок плеера и разделители панелей.
-- В настройках обновлений оставлен только стабильный канал. Новая версия отмечается красной точкой в «Справка».
+## Как обновиться
+Откройте **Настройки → Обновления → Проверить обновления** или **Справка → Проверить обновления**. Сохраните проект, остановите воспроизведение и закройте второй экран перед установкой. Версия 0.2.6 опубликована в стабильном канале.
 
-### Обновление с 0.2.0
-В настройках программы откройте «Обновления» и нажмите «Проверить обновления». Перед установкой сохраните проект, остановите воспроизведение и закройте второй экран. Следуйте командам установленной версии. Для ручной установки распакуйте архив целиком в новую папку.
-
-Штатный обновлятор сохраняет `modules/` и данные пользователя. Версия 0.2.5 устанавливает только отсутствующие штатные `.evmod`; существующие контейнеры и личные пакеты не заменяет. В публичной сборке личные модули не загружаются. Сохраните отдельную копию проекта перед переходом.
-
-Сборка и программные проверки не заменяют проверку звука, устройств и второго монитора на площадке. Проверка на чистой Windows VM не выполнялась. Новый логотип ещё не выбран: сохранён текущий знак.
+Сборка рассчитана на переход со старых версий с поддержкой подписанных обновлений, включая 0.2.0 и 0.2.5. Старые папки модулей и пользовательские проекты сохраняются. Для сборок без рабочего обновлятора скачайте ZIP и распакуйте целиком в новую папку.
 
 ## English
+- Fixed Windows File Manager layout, navigation width, headings, spacing and scrollbars.
+- Fixed category navigation failing on empty location fields.
+- Removed the extra empty header row and restored the native module close action.
+- Restored the thin divider beside the left navigation.
+- Bundled updates now replace older verified public modules from the same publisher, retaining backups. Unknown, modified and newer packages are preserved.
 
-Public Windows x64 Portable release. Music Lotto is not included.
-
-### Changes since 0.2.0
-- Signed `.evmod` module containers. Verified defaults are installed into `modules/` on first launch; legacy folders are retained.
-- `.evnt` project creation, opening, Save, Save As and recent projects. The File menu displays the project name and unsaved changes.
-- Optional Quick Start on launch, configurable in Settings.
-- Grouped title bar with consistent dividers, fullscreen beside window controls and a green active audience-display button.
-- A single readiness-check button in the lower left corner.
-- Revised timer: MM:SS input, duration shortcuts, count up/down, audience display and an optional built-in completion signal. The mini timer shares the same clock. An occupied channel B is never interrupted by the signal.
-- Refined Media Pads, player controls and panel resize grips.
-- Stable updates only, with a red update indicator in Help.
-
-### Updating from 0.2.0
-Open Settings → Updates → Check for updates. Save your project, stop playback and close the audience display before installing. Follow the installed version's prompts. For manual installation, extract the complete archive into a new folder.
-
-The updater preserves modules and user data. Version 0.2.5 installs missing default `.evmod` files only; existing containers and personal packages are not overwritten. The public edition does not load private modules. Keep a separate project backup.
-
-Build checks do not replace venue testing of audio devices and physical displays. A clean Windows VM was not tested. The current logo is retained pending selection of a new design.
-<!-- eventra-stable-025:end -->
+Use **Settings → Updates → Check for updates**. Save your project and stop playback before installing. Stable channel; Windows x64 Portable. Personal Music Lotto is not included.
+<!-- eventra-stable-026:end -->
 
 ---
 
