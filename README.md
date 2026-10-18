@@ -13,6 +13,10 @@
 
 [Иконка для ярлыка](https://github.com/xook303/eventra-releases/releases/latest/download/EventStudia.ico)
 
+[Веб-установщик 0.1.0](https://github.com/xook303/eventra-releases/releases/download/v0.2.7/EventStudia-WebSetup-0.1.0.exe) — устанавливает последнюю стабильную версию, создаёт ярлыки и пункт удаления Windows.
+
+В обычной сборке один файл запуска — **EventStudia.exe**. Для удаления используйте **Uninstall.exe**. Полная очистка настроек, медиатеки, кэша и модулей включается отдельной галочкой; исходные внешние медиа и проекты сохраняются.
+
 Windows x64 · Portable · Stable
 
 </div>
@@ -33,7 +37,7 @@ Event Studia — программа для управления медиа на 
 ### Обновление со старых версий
 Откройте **Настройки → Обновления → Проверить обновления**. Перед установкой сохраните проект, остановите воспроизведение и закройте второй экран.
 
-Для совместимости сохранены адрес `xook303/eventra-releases`, технический пакет `Eventra-VERSION-windows-x64-portable.zip` и файл `Eventra.exe`. Название программы в интерфейсе — **Event Studia**. Форматы проектов, модулей и настройки сохраняются. Старые и личные проекты не переименовываются.
+В чистой сборке 0.2.7 **Eventra.exe отсутствует**. Для её дальнейшего обновления используйте веб-установщик: он сохраняет прежнюю папку как резервную копию и переносит неизвестные пользовательские файлы. Встроенный старый обновлятор ещё требует прежнее имя EXE. Технический архив `Eventra-VERSION-windows-x64-portable.zip` сохранён отдельно для обновления прежних установок. Форматы проектов и модулей сохраняются.
 
 Публичная сборка не включает личное музыкальное лото. [Все версии](https://github.com/xook303/eventra-releases/releases).
 
@@ -43,4 +47,4 @@ Event Studia — программа для управления медиа на 
 
 Extract the full ZIP and run **EventStudia.exe**. Keep `runtime`, `ffmpeg` and `resources` beside the executable. Signed default modules install into `modules/` on first launch.
 
-Use **Settings → Updates → Check for updates**. Save projects and stop playback before installation. The legacy repository URL, update-package name and Eventra.exe remain available for old updaters. `.evnt` projects, `.evmod` modules and preferences remain compatible. Personal Music Lotto is not included.
+The normal 0.2.7 package contains **EventStudia.exe** and **Uninstall.exe**, without the duplicate Eventra.exe. Use the web installer for subsequent upgrades of this clean package; the embedded legacy updater still expects the old executable name. The web installer preserves the prior installation as a backup. Uninstall offers optional removal of the app profile, library, cache and modules while preserving external source media and projects. A separate signed legacy update ZIP remains available to older installations. Personal Music Lotto is not included.
