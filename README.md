@@ -7,7 +7,7 @@
 
 [![Windows x64](https://img.shields.io/badge/Windows-x64-101923?style=flat-square&logo=windows&logoColor=white)](#ru)
 [![Portable](https://img.shields.io/badge/Distribution-Portable-101923?style=flat-square)](#installation)
-[![Alpha](https://img.shields.io/badge/Status-Alpha-d9a441?style=flat-square)](#status)
+[![Stable](https://img.shields.io/badge/Status-Stable-58d6ad?style=flat-square)](#status)
 
 [Русский](#ru) · [English](#en) · [Релизы / Releases](https://github.com/xook303/eventra-releases/releases)
 
@@ -17,43 +17,55 @@
 
 ---
 
-<!-- eventra-preview-020:start -->
+<!-- eventra-stable-025:start -->
 
-## Eventra 0.2.0 · Stable
+## Eventra 0.2.5 · Stable
 
-**[Скачать 0.2.0 / Download 0.2.0](https://github.com/xook303/eventra-releases/releases/download/v0.2.0/Eventra-0.2.0-windows-x64-portable.zip)** · [Release notes](https://github.com/xook303/eventra-releases/releases/tag/v0.2.0)
+**[Скачать последнюю версию / Download latest](https://github.com/xook303/eventra-releases/releases/latest/download/Eventra-0.2.5-windows-x64-portable.zip)** · [Изменения / Release notes](https://github.com/xook303/eventra-releases/releases/tag/v0.2.5)
 
-### Что изменилось после 0.1.1
 
-- **Модули в отдельных папках.** Файловый менеджер, медиаплеер, сцены, медиапэды и таймер поставляются подписанными пакетами в `modules/` и работают внутри общего окна Eventra.
-- **Обновлённая верхняя панель.** Меню и управление окном собраны в общей шапке с разделителями. Убрана дублирующая кнопка настроек слева.
-- **Аккуратнее рабочее пространство.** Выровнены панели, нижние полосы и кнопки закрытия. Команды заставки и Blackout объединены с нижней панелью действий.
-- **Файловый менеджер.** Единый размер карточек папок, меньше повторяющихся названий. При создании папки название сразу выделяется, Enter подтверждает ввод.
-- **Медиапэды.** Русское название, переключатели «Общие / Сцена», обновлённые карточки и цветовые полосы.
-- **Медиаплеер.** Компактная команда «Создать плейлист» по центру пустой панели.
-- **Первый запуск.** Приветствие с выбором языка и рабочего пространства; его можно открыть повторно из справки.
-- **Русский и английский.** Общие словари перевода для интерфейса CORE и модулей. Редкие технические сообщения ещё требуют редакторской проверки.
+## Русский
 
-Публичная сборка **без музыкального лото**. Стабильный выпуск 0.2.0: распакуйте архив целиком **в новую папку**. Автоматический переход с 0.1.1 на модульную поставку пока не готов; установка этого выпуска выполняется вручную.
+Публичная Windows x64 Portable-сборка без музыкального лото.
 
-Проверены сборка, подписи пяти модулей, запуск со встроенным WebView2 и штатное закрытие. Проверка на чистой Windows и полный сценарий живого мероприятия ещё не завершены.
+### Что изменилось после 0.2.0
+- Модули поставляются подписанными контейнерами `.evmod`. При первом запуске проверенные штатные пакеты размещаются в `modules/`; старые папки сохраняются.
+- Работа с проектами `.evnt`: новый проект, открытие, сохранение, «Сохранить как» и последние проекты. Название и несохранённые изменения отображаются в меню «Файл».
+- Быстрый старт можно показывать при запуске и включать в настройках.
+- Верхняя панель собрана в группы с одинаковыми разделителями. Полноэкранная кнопка находится рядом с управлением окном; активный второй экран выделяется зелёным.
+- Единая кнопка проверки готовности находится внизу слева.
+- Обновлён таймер: ввод ММ:СС, быстрые длительности, прямой и обратный отсчёт, вывод гостям на второй экран и встроенный сигнал окончания. Мини-таймер и большой модуль используют один отсчёт. Сигнал можно выключить; занятый канал B не прерывается.
+- Упрощены карточки медиапэдов, размеры кнопок плеера и разделители панелей.
+- В настройках обновлений оставлен только стабильный канал. Новая версия отмечается красной точкой в «Справка».
 
-### Changes since 0.1.1
+### Обновление с 0.2.0
+В настройках программы откройте «Обновления» и нажмите «Проверить обновления». Перед установкой сохраните проект, остановите воспроизведение и закройте второй экран. Следуйте командам установленной версии. Для ручной установки распакуйте архив целиком в новую папку.
 
-- **Separate module folders.** The file manager, media player, scenes, Media Pads and timer ship as signed packages in `modules/` and run inside the Eventra window.
-- **Updated title bar.** Menus and window controls share a single header with separators. Removed the duplicate Settings button from the left sidebar.
-- **Refined workspace.** Aligned panels, bottom bars and close controls. Event splash and Blackout controls share the bottom action bar.
-- **File manager.** Consistent folder-card sizes and fewer repeated labels. New-folder text is selected immediately; Enter confirms the name.
-- **Media Pads.** Revised cards, color strips and Global / Scene tabs, with a localized Russian title.
-- **Media player.** A compact Create playlist action is centered in the empty panel.
-- **First launch.** A welcome flow offers language and workspace selection and can be reopened from Help.
-- **Russian and English.** Shared translation dictionaries cover CORE and module interfaces. Some technical messages still need editorial review.
+Штатный обновлятор сохраняет `modules/` и данные пользователя. Версия 0.2.5 устанавливает только отсутствующие штатные `.evmod`; существующие контейнеры и личные пакеты не заменяет. В публичной сборке личные модули не загружаются. Сохраните отдельную копию проекта перед переходом.
 
-The public build **excludes Music Lotto**. Stable release 0.2.0: extract the complete archive **into a new folder**. Automatic migration from 0.1.1 is not ready; install this release manually.
+Сборка и программные проверки не заменяют проверку звука, устройств и второго монитора на площадке. Проверка на чистой Windows VM не выполнялась. Новый логотип ещё не выбран: сохранён текущий знак.
 
-Build, five module signatures, bundled WebView2 startup and normal exit were checked. Clean Windows and full live-event validation are not complete.
+## English
 
-<!-- eventra-preview-020:end -->
+Public Windows x64 Portable release. Music Lotto is not included.
+
+### Changes since 0.2.0
+- Signed `.evmod` module containers. Verified defaults are installed into `modules/` on first launch; legacy folders are retained.
+- `.evnt` project creation, opening, Save, Save As and recent projects. The File menu displays the project name and unsaved changes.
+- Optional Quick Start on launch, configurable in Settings.
+- Grouped title bar with consistent dividers, fullscreen beside window controls and a green active audience-display button.
+- A single readiness-check button in the lower left corner.
+- Revised timer: MM:SS input, duration shortcuts, count up/down, audience display and an optional built-in completion signal. The mini timer shares the same clock. An occupied channel B is never interrupted by the signal.
+- Refined Media Pads, player controls and panel resize grips.
+- Stable updates only, with a red update indicator in Help.
+
+### Updating from 0.2.0
+Open Settings → Updates → Check for updates. Save your project, stop playback and close the audience display before installing. Follow the installed version's prompts. For manual installation, extract the complete archive into a new folder.
+
+The updater preserves modules and user data. Version 0.2.5 installs missing default `.evmod` files only; existing containers and personal packages are not overwritten. The public edition does not load private modules. Keep a separate project backup.
+
+Build checks do not replace venue testing of audio devices and physical displays. A clean Windows VM was not tested. The current logo is retained pending selection of a new design.
+<!-- eventra-stable-025:end -->
 
 ---
 
