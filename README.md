@@ -17,6 +17,46 @@
 
 ---
 
+<!-- eventra-preview-020:start -->
+
+## Eventra 0.2.0 · Preview
+
+**[Скачать 0.2.0 / Download 0.2.0](https://github.com/xook303/eventra-releases/releases/download/v0.2.0/Eventra-0.2.0-windows-x64-portable.zip)** · [Release notes](https://github.com/xook303/eventra-releases/releases/tag/v0.2.0)
+
+### Что изменилось после 0.1.1
+
+- **Модули в отдельных папках.** Файловый менеджер, медиаплеер, сцены, медиапэды и таймер поставляются подписанными пакетами в `modules/` и работают внутри общего окна Eventra.
+- **Обновлённая верхняя панель.** Меню и управление окном собраны в общей шапке с разделителями. Убрана дублирующая кнопка настроек слева.
+- **Аккуратнее рабочее пространство.** Выровнены панели, нижние полосы и кнопки закрытия. Команды заставки и Blackout объединены с нижней панелью действий.
+- **Файловый менеджер.** Единый размер карточек папок, меньше повторяющихся названий. При создании папки название сразу выделяется, Enter подтверждает ввод.
+- **Медиапэды.** Русское название, переключатели «Общие / Сцена», обновлённые карточки и цветовые полосы.
+- **Медиаплеер.** Компактная команда «Создать плейлист» по центру пустой панели.
+- **Первый запуск.** Приветствие с выбором языка и рабочего пространства; его можно открыть повторно из справки.
+- **Русский и английский.** Общие словари перевода для интерфейса CORE и модулей. Редкие технические сообщения ещё требуют редакторской проверки.
+
+Публичная сборка **без музыкального лото**. Это тестовый выпуск: распакуйте архив целиком **в новую папку**. Автоматический переход с 0.1.1 на модульную поставку пока не готов; стабильный канал остаётся на 0.1.1.
+
+Проверены сборка, подписи пяти модулей, запуск со встроенным WebView2 и штатное закрытие. Проверка на чистой Windows и полный сценарий живого мероприятия ещё не завершены.
+
+### Changes since 0.1.1
+
+- **Separate module folders.** The file manager, media player, scenes, Media Pads and timer ship as signed packages in `modules/` and run inside the Eventra window.
+- **Updated title bar.** Menus and window controls share a single header with separators. Removed the duplicate Settings button from the left sidebar.
+- **Refined workspace.** Aligned panels, bottom bars and close controls. Event splash and Blackout controls share the bottom action bar.
+- **File manager.** Consistent folder-card sizes and fewer repeated labels. New-folder text is selected immediately; Enter confirms the name.
+- **Media Pads.** Revised cards, color strips and Global / Scene tabs, with a localized Russian title.
+- **Media player.** A compact Create playlist action is centered in the empty panel.
+- **First launch.** A welcome flow offers language and workspace selection and can be reopened from Help.
+- **Russian and English.** Shared translation dictionaries cover CORE and module interfaces. Some technical messages still need editorial review.
+
+The public build **excludes Music Lotto**. This is a preview: extract the complete archive **into a new folder**. Automatic migration from 0.1.1 is not ready; the stable channel remains on 0.1.1.
+
+Build, five module signatures, bundled WebView2 startup and normal exit were checked. Clean Windows and full live-event validation are not complete.
+
+<!-- eventra-preview-020:end -->
+
+---
+
 <a id="ru"></a>
 
 ## Eventra — управление мероприятием
