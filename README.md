@@ -19,7 +19,7 @@
 
 <!-- eventra-preview-020:start -->
 
-## Eventra 0.2.0 · Preview
+## Eventra 0.2.0 · Stable
 
 **[Скачать 0.2.0 / Download 0.2.0](https://github.com/xook303/eventra-releases/releases/download/v0.2.0/Eventra-0.2.0-windows-x64-portable.zip)** · [Release notes](https://github.com/xook303/eventra-releases/releases/tag/v0.2.0)
 
@@ -34,7 +34,7 @@
 - **Первый запуск.** Приветствие с выбором языка и рабочего пространства; его можно открыть повторно из справки.
 - **Русский и английский.** Общие словари перевода для интерфейса CORE и модулей. Редкие технические сообщения ещё требуют редакторской проверки.
 
-Публичная сборка **без музыкального лото**. Это тестовый выпуск: распакуйте архив целиком **в новую папку**. Автоматический переход с 0.1.1 на модульную поставку пока не готов; стабильный канал остаётся на 0.1.1.
+Публичная сборка **без музыкального лото**. Стабильный выпуск 0.2.0: распакуйте архив целиком **в новую папку**. Автоматический переход с 0.1.1 на модульную поставку пока не готов; установка этого выпуска выполняется вручную.
 
 Проверены сборка, подписи пяти модулей, запуск со встроенным WebView2 и штатное закрытие. Проверка на чистой Windows и полный сценарий живого мероприятия ещё не завершены.
 
@@ -49,7 +49,7 @@
 - **First launch.** A welcome flow offers language and workspace selection and can be reopened from Help.
 - **Russian and English.** Shared translation dictionaries cover CORE and module interfaces. Some technical messages still need editorial review.
 
-The public build **excludes Music Lotto**. This is a preview: extract the complete archive **into a new folder**. Automatic migration from 0.1.1 is not ready; the stable channel remains on 0.1.1.
+The public build **excludes Music Lotto**. Stable release 0.2.0: extract the complete archive **into a new folder**. Automatic migration from 0.1.1 is not ready; install this release manually.
 
 Build, five module signatures, bundled WebView2 startup and normal exit were checked. Clean Windows and full live-event validation are not complete.
 
@@ -77,7 +77,7 @@ Build, five module signatures, bundled WebView2 startup and normal exit were che
 
 Ссылка автоматически открывает последний опубликованный стабильный релиз. ZIP находится в разделе **Assets**. При выходе новой версии адрес ссылки останется тем же.
 
-Доступна публичная версия **0.1.1** для Windows x64. Скачайте полный Portable ZIP по ссылке выше. Если у вас уже установлена 0.1.1, распакуйте новый пакет в отдельную папку: замена пакета с тем же номером не запускает автоматическое обновление.
+Доступна публичная версия **0.2.0** для Windows x64. Скачайте полный Portable ZIP по ссылке выше и распакуйте в новую папку. Автоматический переход со старых сборок на модульную поставку ещё не готов.
 
 1. Скачайте `Eventra-VERSION-windows-x64-portable.zip` из раздела **Assets** нужного релиза.
 2. Распакуйте архив целиком в отдельную папку.
@@ -134,7 +134,7 @@ A desktop application for preparing and running events. Organize media, prepare 
 
 This link automatically opens the latest published stable release. Download the ZIP from **Assets**. The link stays the same when a new version is released.
 
-Public version **0.1.1** for Windows x64 is available. Download the complete Portable ZIP using the link above. If 0.1.1 is already installed, extract the new package into a separate folder: a same-version package replacement does not trigger an automatic update.
+Public version **0.2.0** for Windows x64 is available. Download the complete Portable ZIP and extract it into a new folder. Automatic migration from older builds to the modular distribution is not ready.
 
 1. Download `Eventra-VERSION-windows-x64-portable.zip` from the release **Assets**.
 2. Extract the entire archive into a separate folder.
