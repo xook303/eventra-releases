@@ -9,11 +9,9 @@
 **Музыка · Видео · Сцены · Второй экран**  
 **Music · Video · Scenes · Audience display**
 
-[Скачать веб-установщик Event Studia](https://github.com/xook303/eventra-releases/releases/latest/download/EventStudiaSetup.exe) · [Изменения / Release notes](https://github.com/xook303/eventra-releases/releases/tag/v0.2.7)
+[Все версии](https://github.com/xook303/eventra-releases/releases)
 
-[Иконка для ярлыка](https://github.com/xook303/eventra-releases/releases/latest/download/EventStudia.ico)
-
-[Новый NSIS-веб-установщик](https://github.com/xook303/eventra-releases/releases/latest/download/EventStudiaSetup.exe) — скачивает последнюю стабильную версию, устанавливает программу, создаёт ярлыки и стандартное удаление Windows.
+ — скачивает последнюю стабильную версию, устанавливает программу, создаёт ярлыки и стандартное удаление Windows.
 
 В обычной сборке один файл запуска — **EventStudia.exe**. Для новой NSIS-установки используйте удаление через настройки Windows. Пользовательские проекты и внешние медиа сохраняются.
 
@@ -39,7 +37,6 @@ Event Studia — программа для управления медиа на 
 
 В чистой сборке 0.2.7 **Eventra.exe отсутствует**. Для её дальнейшего обновления используйте веб-установщик: он сохраняет прежнюю папку как резервную копию и переносит неизвестные пользовательские файлы. Встроенный старый обновлятор ещё требует прежнее имя EXE. Технический архив `Eventra-VERSION-windows-x64-portable.zip` сохранён отдельно для обновления прежних установок. Форматы проектов и модулей сохраняются.
 
-Публичная сборка не включает личное музыкальное лото. [Все версии](https://github.com/xook303/eventra-releases/releases).
 
 ## English
 
