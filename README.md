@@ -2,7 +2,7 @@
 
 Приложение Windows для управления музыкой, видео и выводом на второй экран во время мероприятий.
 
-[Скачать установщик Qventa]([https://github.com/xook303/qventa-releases/releases](https://github.com/xook303/qventa-releases/releases/download/v0.3.5/Qventa_0.3.5_x64-setup.exe))· [Релизы и изменения](https://github.com/xook303/qventa-releases/releases) · [Исходный проект](https://github.com/xook303/qventa)
+[Скачать установщик Qventa](https://github.com/xook303/qventa-releases/releases/download/v0.3.5/Qventa_0.3.5_x64-setup.exe) · [Релизы и изменения](https://github.com/xook303/qventa-releases/releases) · [Исходный проект](https://github.com/xook303/qventa)
 
 Веб-установщик выбирает последнюю стабильную версию, проверяет цифровую подпись метаданных и SHA-256 пакета. Полный установщик доступен в каждом новом релизе под именем `Qventa_<версия>_x64-setup.exe`.
 
