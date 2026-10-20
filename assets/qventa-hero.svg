@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="520" viewBox="0 0 1440 520" role="img" aria-labelledby="title desc">
+<title id="title">Qventa — медиа под вашим контролем</title><desc id="desc">Музыка, видео и второй экран для вашего мероприятия. Приложение Windows.</desc>
+<rect width="1440" height="520" rx="22" fill="#0c131b"/><path d="M0 470H1440M850 0V470" stroke="#243342"/>
+<g font-family="Segoe UI,Arial,sans-serif"><circle cx="58" cy="55" r="5" fill="#55dda9"/><text x="78" y="61" font-size="17" letter-spacing="3" fill="#a1b2c2">EVENT MEDIA CONTROL</text>
+<text x="48" y="192" font-size="116" font-weight="600" letter-spacing="-5" fill="#eef4f8">Qventa<tspan fill="#55dda9">.</tspan></text>
+<text x="54" y="278" font-size="47" fill="#eef4f8">Медиа под вашим</text><text x="54" y="335" font-size="47" fill="#eef4f8">контролем.</text>
+<text x="56" y="400" font-size="23" fill="#9eafbf">Музыка, видео и второй экран для вашего мероприятия.</text>
+<text x="54" y="502" font-size="15" letter-spacing="2" fill="#8295a8">ВАШ ЭКРАН — ДЛЯ УПРАВЛЕНИЯ</text><text x="908" y="502" font-size="15" letter-spacing="2" fill="#8295a8">ЭКРАН ГОСТЕЙ — ДЛЯ ВПЕЧАТЛЕНИЙ</text>
+<text x="906" y="61" font-size="16" letter-spacing="2" fill="#7f93a6">ОДНО РАБОЧЕЕ МЕСТО</text>
+<rect x="900" y="96" width="480" height="109" rx="12" fill="#111e2a" stroke="#2a3c4c"/><text x="924" y="131" font-size="16" letter-spacing="2" fill="#9eafbf">МУЗЫКА</text>
+<path d="M929 163v12m17-25v39m17-33v28m17-42v51m17-32v29m17-47v58m17-40v25m17-44v61m17-47v34m17-24v17m17-38v56m17-36v28m17-42v53m17-37v30m17-26v19m17-39v52m17-31v21m17-28v35m17-42v49m17-29v14m17-28v33m17-40v44m17-27v14m17-23v29m17-20v12" stroke="#55dda9" stroke-width="5" stroke-linecap="round"/>
+<g fill="#111e2a" stroke="#2a3c4c"><rect x="900" y="223" width="231" height="132" rx="12"/><rect x="1149" y="223" width="231" height="132" rx="12"/></g>
+<text x="924" y="257" font-size="16" letter-spacing="2" fill="#9eafbf">ВИДЕО</text><path d="M1000 279l28 17-28 17z" fill="#55dda9"/>
+<text x="1172" y="257" font-size="16" letter-spacing="2" fill="#9eafbf">МЕДИАПЭДЫ</text><g fill="#1e3a3e" stroke="#3b7365"><rect x="1178" y="278" width="44" height="44" rx="5"/><rect x="1238" y="278" width="44" height="44" rx="5"/><rect x="1298" y="278" width="44" height="44" rx="5"/></g>
+<path d="M1140 366v18m-6-6 6 6 6-6" fill="none" stroke="#55dda9" stroke-width="2"/><rect x="900" y="398" width="480" height="47" rx="9" fill="#15372e" stroke="#326b56"/><text x="1140" y="429" text-anchor="middle" font-size="19" letter-spacing="2" fill="#8fe9bd">ВТОРОЙ ЭКРАН</text></g></svg>
