@@ -1,47 +1,19 @@
-<div align="center">
+# Qventa
 
-![Event Studia — управление мероприятием](assets/eventra-banner.svg)
+Приложение Windows для управления музыкой, видео и выводом на второй экран во время мероприятий.
 
-<img src="assets/event-studia-logo.svg" width="96" alt="Event Studia logo" />
+[Скачать установщик Qventa](https://github.com/xook303/qventa-releases/releases/latest/download/QventaSetup.exe) · [Релизы и изменения](https://github.com/xook303/qventa-releases/releases) · [Исходный проект](https://github.com/xook303/qventa)
 
-# Event Studia
+Веб-установщик выбирает последнюю стабильную версию, проверяет цифровую подпись метаданных и SHA-256 пакета. Полный установщик доступен в каждом новом релизе под именем `Qventa_<версия>_x64-setup.exe`.
 
-**Музыка · Видео · Сцены · Второй экран**  
-**Music · Video · Scenes · Audience display**
+Qventa продолжает продукт Event Studia. Проекты, настройки и установленные модули сохраняют совместимость. Технические имена старых пакетов оставлены для обновления прежних установок. Старые релизы — исторические сборки.
 
-[Все версии](https://github.com/xook303/eventra-releases/releases)
-
- — скачивает последнюю стабильную версию, устанавливает программу, создаёт ярлыки и стандартное удаление Windows.
-
-В обычной сборке один файл запуска — **EventStudia.exe**. Для новой NSIS-установки используйте удаление через настройки Windows. Пользовательские проекты и внешние медиа сохраняются.
-
-Windows x64 · NSIS / Portable · Stable
-
-</div>
-
-## Русский
-
-Event Studia — программа для управления медиа на мероприятии. Ранее она называлась Eventra.
-
-- Медиатека с аудио, видео, изображениями и презентациями.
-- Медиаплеер, сцены и медиапэды для работы ведущего.
-- Второй экран для гостей и таймер со звуковым сигналом.
-- Проекты `.evnt` и подписанные модули `.evmod`.
-- Стабильные подписанные обновления через GitHub.
-
-### Установка
-Скачайте **EventStudiaSetup.exe** и следуйте мастеру. Он загрузит последнюю стабильную версию и проверит подпись Ed25519 и SHA-256 пакета. Установка по умолчанию — Program Files. Подписи Windows Authenticode пока нет: возможно предупреждение «Неизвестный издатель». Удаление — через настройки Windows. Portable ZIP остаётся отдельным вариантом в релизе.
-
-### Обновление со старых версий
-Откройте **Настройки → Обновления → Проверить обновления**. Перед установкой сохраните проект, остановите воспроизведение и закройте второй экран.
-
-В чистой сборке 0.2.7 **Eventra.exe отсутствует**. Для её дальнейшего обновления используйте веб-установщик: он сохраняет прежнюю папку как резервную копию и переносит неизвестные пользовательские файлы. Встроенный старый обновлятор ещё требует прежнее имя EXE. Технический архив `Eventra-VERSION-windows-x64-portable.zip` сохранён отдельно для обновления прежних установок. Форматы проектов и модулей сохраняются.
-
+Подпись Windows Authenticode отсутствует; Windows может показать «Неизвестный издатель».
 
 ## English
 
-**Event Studia**, formerly Eventra, is a Windows Portable application for operating event media: a media library, player, scenes, Media Pads, an audience display and a timer.
+Qventa is a Windows application for event music, video and audience-screen control.
 
-Extract the full ZIP and run **EventStudia.exe**. Keep `runtime`, `ffmpeg` and `resources` beside the executable. Signed default modules install into `modules/` on first launch.
+The web installer downloads the latest stable version and validates signed metadata and the package SHA-256. Each new release also provides a complete Windows x64 installer.
 
-The normal 0.2.7 package contains **EventStudia.exe** and **Uninstall.exe**, without the duplicate Eventra.exe. Use the web installer for subsequent upgrades of this clean package; the embedded legacy updater still expects the old executable name. The web installer preserves the prior installation as a backup. Uninstall offers optional removal of the app profile, library, cache and modules while preserving external source media and projects. A separate signed legacy update ZIP remains available to older installations. Personal Music Lotto is not included.
+Qventa continues Event Studia with compatible projects, settings and modules. Legacy package names remain available for older installed updaters. Historical releases retain their original binaries. Windows Authenticode signing is not provided.
