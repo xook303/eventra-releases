@@ -1,82 +1,186 @@
 <div align="center">
 
-<img src="assets/qventa-hero.svg" alt="Qventa — медиа под вашим контролем" width="100%" />
+<img src="assets/qventa-icon.png" width="88" height="88" alt="Qventa" />
 
-### Всё внимание — мероприятию.
-Музыка, видео, быстрые запуски и экран гостей — в одном приложении Windows.
+# Qventa
 
-<a href="https://github.com/xook303/qventa-releases/releases/latest/download/QventaSetup.exe"><img alt="Скачать Qventa для Windows" src="https://img.shields.io/badge/Скачать_Qventa-Windows_x64-55dda9?style=for-the-badge&amp;labelColor=15232e&amp;color=55dda9" /></a>
-<a href="https://github.com/xook303/qventa-releases/releases/latest"><img alt="Полный установщик и изменения" src="https://img.shields.io/badge/Полный_установщик-и_изменения-243747?style=for-the-badge&amp;labelColor=15232e" /></a>
+### Ваше мероприятие. Ваш пульт.
+### Your event. Your control.
 
-[Последняя версия](https://github.com/xook303/qventa-releases/releases/latest) · [Все релизы](https://github.com/xook303/qventa-releases/releases) · [Сообщить о проблеме](https://github.com/xook303/qventa-releases/issues)
+Музыка · Видео · Сцены · Экран гостей  
+Music · Video · Scenes · Audience display
+
+[![Latest release](https://img.shields.io/github/v/release/xook303/qventa-releases?style=flat-square&label=release&color=f0a348&labelColor=292929)](https://github.com/xook303/qventa-releases/releases/latest)
+![Windows x64](https://img.shields.io/badge/Windows-x64-bdbdbd?style=flat-square&labelColor=292929)
+![Interface languages](https://img.shields.io/badge/interface-RU%20%2F%20EN-bdbdbd?style=flat-square&labelColor=292929)
+
+**[Русский](#russian) · [English](#english)**
+
+[**Скачать для Windows / Download for Windows**](https://github.com/xook303/qventa-releases/releases/latest/download/QventaSetup.exe)
+
+[Последний выпуск / Latest release](https://github.com/xook303/qventa-releases/releases/latest) · [Изменения / Release notes](https://github.com/xook303/qventa-releases/releases) · [Обратная связь / Feedback](https://github.com/xook303/qventa-releases/issues)
 
 </div>
 
 ---
 
-## Один оператор. Одно рабочее место.
+<a id="russian"></a>
 
-Подготовьте медиа заранее, соберите плейлисты и управляйте воспроизведением во время мероприятия. **На вашем экране — управление. На экране гостей — выбранный контент.**
+## Русский
 
-| Подготовьте | Запускайте | Показывайте |
-| :--- | :--- | :--- |
-| **Файловый менеджер** — найдите аудио, видео и изображения в медиатеке и папках Windows. | **Медиаплеер** — переключайте треки, управляйте громкостью и воспроизведением. | **Второй экран** — выводите гостям видео, изображения и заставку мероприятия. |
-| **Плейлисты** — соберите музыку и видеоклипы в нужном порядке. | **Медиапэды** — держите короткие звуки и быстрые запуски под рукой. | **Предпросмотр** — проверьте файл перед выбором назначения. |
+**Один оператор. Одно рабочее место.**
 
-## От подготовки к проведению
+Qventa объединяет музыку, видео, сцены и быстрые медиа-запуски в приложении для Windows. Подготовьте материалы заранее и управляйте ими во время мероприятия.
 
-**01 · Соберите материалы.** Добавьте файлы, подготовьте плейлисты и действия сцены.
+**На вашем экране — управление. На экране гостей — выбранный контент.**
 
-**02 · Настройте вывод.** Выберите экран для гостей и заставку — изображение или зацикленное видео.
+### Всё под рукой
 
-**03 · Управляйте моментом.** Запускайте медиа из плеера и пэдов, переключайте контент и контролируйте воспроизведение со своего экрана.
+| Инструмент | Для чего |
+| :--- | :--- |
+| **Медиатека** | Аудио, видео, изображения и презентации; папки, коллекции и поиск. |
+| **Медиаплеер** | Плейлисты, волновая форма, управление воспроизведением и громкостью. |
+| **Сцены** | Подготовка последовательностей действий для мероприятия. |
+| **Медиапэды** | Быстрый запуск коротких звуков и других медиа. |
+| **Экран гостей** | Вывод видео, изображений и заставки мероприятия на отдельный экран. |
+| **Таймер** | Отсчёт времени со звуковым сигналом. |
 
----
+### Начните с трёх шагов
 
-## Установить Qventa
+1. **Подготовьте материалы.** Добавьте файлы и папки, соберите плейлисты и сцены.
+2. **Настройте вывод.** Выберите экран гостей и заставку — изображение или видео.
+3. **Проводите мероприятие.** Управляйте воспроизведением, сценами и пэдами со своего экрана.
 
-1. [Скачайте веб-установщик QventaSetup.exe](https://github.com/xook303/qventa-releases/releases/latest/download/QventaSetup.exe).
-2. Запустите его: он выберет последнюю стабильную версию и загрузит полный пакет.
-3. Завершите установку и откройте **Qventa** через ярлык.
+### Установка
 
-Нужен полный пакет для переноса на другой компьютер? Откройте [последний релиз](https://github.com/xook303/qventa-releases/releases/latest) и скачайте **`Qventa_<версия>_x64-setup.exe`**.
+| Вариант | Скачать |
+| :--- | :--- |
+| **Веб-установщик** — загружает последнюю стабильную версию | [QventaSetup.exe](https://github.com/xook303/qventa-releases/releases/latest/download/QventaSetup.exe) |
+| **Полный установщик** — для переноса на другой компьютер | [Выбрать файл в последнем выпуске](https://github.com/xook303/qventa-releases/releases/latest) → `Qventa_<версия>_x64-setup.exe` |
 
-### Уже пользуетесь программой?
+Запустите установщик, завершите установку и откройте **Qventa** через ярлык. Веб-установщику нужен интернет. Если на компьютере нет подходящего Microsoft Edge WebView2 Runtime, установщик может запросить его загрузку.
 
-Проверьте обновления в настройках. После скачивания и вашего подтверждения установщик запустится при выходе из программы. Выберите для обновления время вне рабочего мероприятия.
+### Обновление
+
+Откройте **Настройки → Обновления → Проверить обновления**. Если новая версия найдена, скачайте её и подтвердите установку при выходе.
+
+Перед обновлением сохраните проект, остановите медиа и закройте экран гостей. Установку лучше выполнять вне рабочего мероприятия.
+
+### Что нового в 0.5.0
+
+- Новый **Graphite Dark**: графитовые поверхности, оранжевые акценты и единое оформление элементов.
+- Компактная навигация со значками, обновлённые медиатека и медиаплеер.
+- Вкладки плейлистов фиксированной ширины, исполнитель и название трека на отдельных строках.
+- Отдельное компактное окно заставки мероприятия.
+- Изменения в программе отображаются на выбранном языке интерфейса.
+
+[**Полный список изменений 0.5.0 →**](https://github.com/xook303/qventa-releases/releases/tag/v0.5.0)
 
 <details>
-<summary><b>Проверка файлов, совместимость и системные уведомления</b></summary>
+<summary><b>Проверка файлов и состав поставки</b></summary>
 
-Веб-установщик и программа проверяют подпись метаданных Ed25519 и SHA-256 скачанного пакета. Это отдельная проверка целостности: **подписи Windows Authenticode пока нет**, поэтому Windows может показать «Неизвестный издатель».
+Веб-установщик и система обновления проверяют подпись метаданных **Ed25519** и контрольную сумму **SHA-256** пакета. Подписи Windows Authenticode пока нет, поэтому Windows может показать «Неизвестный издатель».
 
-Qventa продолжает Event Studia. Для прежних обновляторов сохранены технические имена `EventStudiaSetup.exe` и `EventStudia_<версия>_x64-setup.exe`. В новых релизах это те же установщики Qventa. Предыдущие выпуски хранятся как исторические сборки.
+В публичный комплект входят пять стандартных модулей: медиатека, медиаплеер, сцены, медиапэды и таймер. **Музыкальное лото поставляется отдельно**.
 
-Музыкальное лото поставляется отдельно и не входит в публичный установщик.
+Технические имена `EventStudiaSetup.exe` и `EventStudia_<версия>_x64-setup.exe` сохранены для прежних обновляторов. В текущем выпуске это копии установщиков Qventa.
 
 </details>
 
-## Каждый выпуск — с описанием изменений
+<details>
+<summary><b>Конфиденциальность и обратная связь</b></summary>
 
-В [релизах](https://github.com/xook303/qventa-releases/releases) доступны установщики, контрольные суммы и заметки на русском и английском. При сообщении о проблеме укажите версию Qventa и действия, после которых она возникла.
+При разрешённой статистике программа передаёт случайный идентификатор установки и номер версии. Сбор статистики можно отключить в настройках. Полная политика доступна в программе.
+
+Нашли ошибку? [Создайте обращение](https://github.com/xook303/qventa-releases/issues), укажите версию Qventa, шаги воспроизведения и ожидаемый результат. Не прикладывайте пароли или личные файлы.
+
+</details>
+
+[Перейти к English ↓](#english)
+
+---
+
+<a id="english"></a>
+
+## English
+
+**One operator. One workspace.**
+
+Qventa brings music, video, scenes and quick media triggers into one Windows application. Prepare your materials ahead of time and control them during your event.
+
+**Controls stay on your screen. Selected content goes to your audience.**
+
+### Everything within reach
+
+| Tool | Purpose |
+| :--- | :--- |
+| **Media library** | Audio, video, images and presentations, with folders, collections and search. |
+| **Media player** | Playlists, a waveform, playback controls and volume adjustment. |
+| **Scenes** | Prepare sequences of actions for your event. |
+| **Media Pads** | Trigger short sounds and other media quickly. |
+| **Audience display** | Present video, images and an event splash on a separate screen. |
+| **Timer** | Run a countdown with an audible signal. |
+
+### Get started in three steps
+
+1. **Prepare your materials.** Add files and folders, then build playlists and scenes.
+2. **Set up the output.** Choose your audience screen and an image or video splash.
+3. **Run your event.** Control playback, scenes and Media Pads from your own screen.
+
+### Installation
+
+| Option | Download |
+| :--- | :--- |
+| **Web installer** — downloads the latest stable version | [QventaSetup.exe](https://github.com/xook303/qventa-releases/releases/latest/download/QventaSetup.exe) |
+| **Full installer** — for transferring to another computer | [Choose a file from the latest release](https://github.com/xook303/qventa-releases/releases/latest) → `Qventa_<version>_x64-setup.exe` |
+
+Run the installer, complete setup and open **Qventa** using its shortcut. The web installer requires internet access. If a suitable Microsoft Edge WebView2 Runtime is missing, setup may request a runtime download.
+
+### Updates
+
+Open **Settings → Updates → Check for updates**. When a new version is available, download it and confirm installation on exit.
+
+Save your project, stop media playback and close the audience display before updating. Schedule installation outside your live event.
+
+### New in 0.5.0
+
+- New **Graphite Dark** theme with graphite surfaces, orange accents and consistent controls.
+- Compact icon navigation and refreshed library and player layouts.
+- Fixed-width playlist tabs, with artist and track title on separate lines.
+- A separate compact event-splash popup.
+- In-app release notes follow your selected interface language.
+
+[**Full 0.5.0 release notes →**](https://github.com/xook303/qventa-releases/releases/tag/v0.5.0)
+
+<details>
+<summary><b>File verification and included modules</b></summary>
+
+The web installer and update system verify **Ed25519** metadata signatures and the package's **SHA-256** checksum. Windows Authenticode signing is not currently provided, so Windows may show an “Unknown publisher” notice.
+
+The public package includes five standard modules: Media Library, Media Player, Scenes, Media Pads and Timer. **Music Lotto is distributed separately**.
+
+The technical names `EventStudiaSetup.exe` and `EventStudia_<version>_x64-setup.exe` remain available for older updaters. In the current release, these files are copies of the Qventa installers.
+
+</details>
+
+<details>
+<summary><b>Privacy and feedback</b></summary>
+
+When usage statistics are enabled, the application sends a random installation identifier and its version number. You can disable statistics in Settings. The full privacy policy is available inside the application.
+
+Found a problem? [Open an issue](https://github.com/xook303/qventa-releases/issues) with your Qventa version, reproduction steps and expected result. Do not attach passwords or private files.
+
+</details>
+
+[Вернуться к русскому ↑](#russian)
 
 ---
 
 <div align="center">
 
-**Qventa** · Музыка. Видео. Ваше мероприятие.
+**Qventa · Музыка. Видео. Ваше мероприятие.**  
+**Qventa · Music. Video. Your event.**
 
-[Скачать для Windows](https://github.com/xook303/qventa-releases/releases/latest/download/QventaSetup.exe) · [Открыть релизы](https://github.com/xook303/qventa-releases/releases) · [Проект](https://github.com/xook303/qventa)
+[Download](https://github.com/xook303/qventa-releases/releases/latest/download/QventaSetup.exe) · [Releases](https://github.com/xook303/qventa-releases/releases) · [Issues](https://github.com/xook303/qventa-releases/issues)
 
 </div>
-
-<details>
-<summary>English</summary>
-
-**Qventa brings music, video, quick media triggers and audience-screen control into one Windows workspace.** Prepare your files and playlists, control playback on your own screen, and present selected content to your audience.
-
-[Download the web installer](https://github.com/xook303/qventa-releases/releases/latest/download/QventaSetup.exe) or choose the full Windows x64 installer from the [latest release](https://github.com/xook303/qventa-releases/releases/latest).
-
-Update metadata and package integrity are verified. Windows Authenticode signing is not currently provided. Legacy Event Studia package names remain compatible aliases for older updaters. Music Lotto is distributed separately.
-
-</details>
