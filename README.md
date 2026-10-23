@@ -188,3 +188,10 @@ Found a problem? [Open an issue](https://github.com/xook303/qventa-releases/issu
 [Download](https://github.com/xook303/qventa-releases/releases/latest) · [Releases](https://github.com/xook303/qventa-releases/releases) · [Issues](https://github.com/xook303/qventa-releases/issues)
 
 </div>
+
+
+## 0.6.6
+
+После проверенной загрузки обновления Qventa сохраняет проект, завершает работу и запускает установщик. Отмена сохранения и активный сеанс блокируют установку.
+
+Verified update downloads now save the project, exit normally and launch the installer. Save cancellation and active sessions prevent installation.
