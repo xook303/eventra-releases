@@ -16,7 +16,7 @@ Music · Video · Scenes · Audience display
 
 **[Русский](#russian) · [English](#english)**
 
-[**Скачать для Windows / Download for Windows**](https://github.com/xook303/qventa-releases/releases/latest/download/QventaSetup.exe)
+[**Скачать для Windows / Download for Windows**](https://github.com/xook303/qventa-releases/releases/latest)
 
 [Последний выпуск / Latest release](https://github.com/xook303/qventa-releases/releases/latest) · [Изменения / Release notes](https://github.com/xook303/qventa-releases/releases) · [Обратная связь / Feedback](https://github.com/xook303/qventa-releases/issues)
 
@@ -55,10 +55,9 @@ Qventa объединяет музыку, видео, сцены и быстры
 
 | Вариант | Скачать |
 | :--- | :--- |
-| **Веб-установщик** — загружает последнюю стабильную версию | [QventaSetup.exe](https://github.com/xook303/qventa-releases/releases/latest/download/QventaSetup.exe) |
 | **Полный установщик** — для переноса на другой компьютер | [Выбрать файл в последнем выпуске](https://github.com/xook303/qventa-releases/releases/latest) → `Qventa_<версия>_x64-setup.exe` |
 
-Запустите установщик, завершите установку и откройте **Qventa** через ярлык. Веб-установщику нужен интернет. Если на компьютере нет подходящего Microsoft Edge WebView2 Runtime, установщик может запросить его загрузку.
+Запустите установщик, завершите установку и откройте **Qventa** через ярлык. Полный установщик содержит Microsoft Edge WebView2 Runtime и работает без загрузки компонентов из интернета.
 
 ### Обновление
 
@@ -66,24 +65,27 @@ Qventa объединяет музыку, видео, сцены и быстры
 
 Перед обновлением сохраните проект, остановите медиа и закройте экран гостей. Установку лучше выполнять вне рабочего мероприятия.
 
-### Что нового в 0.5.0
+### Что нового в 0.6.5
 
-- Новый **Graphite Dark**: графитовые поверхности, оранжевые акценты и единое оформление элементов.
-- Компактная навигация со значками, обновлённые медиатека и медиаплеер.
-- Вкладки плейлистов фиксированной ширины, исполнитель и название трека на отдельных строках.
-- Отдельное компактное окно заставки мероприятия.
-- Изменения в программе отображаются на выбранном языке интерфейса.
+- Обновлена медиатека: поиск, фильтры типа/BPM/длительности, пользовательские теги и выбор столбцов.
+- Столбцы можно переставлять и менять по ширине; «Название / Исполнитель» всегда первый. Настройки сохраняются, таблица укладывается в ширину модуля.
+- У тегов доступны переименование и удаление правой кнопкой мыши. Готовые демонстрационные теги убраны.
+- Выравнивание, шрифты, отступы и разделители приведены к графитовому оформлению программы.
+- Эквалайзер открывается внутри программы. Настройки применяются автоматически, диапазон ползунков — ±6 dB, двойной щелчок сбрасывает значение в 0 dB.
+- Название и сохранение пресета перенесены наверх; оформление выбора пресетов и прокрутки обновлено.
+- Активные EQ/DSP выделяются оранжевым. Общий переключатель DSP называется «Включить DSP».
+- Уточнены подписи выбора модулей, убраны синие поверхности. Обновлены отступы компактного плеера.
+- Сохранены исправления штатного закрытия приложения из 0.6.1.
 
-[**Полный список изменений 0.5.0 →**](https://github.com/xook303/qventa-releases/releases/tag/v0.5.0)
+[Изменения 0.6.5](https://github.com/xook303/qventa-releases/releases/tag/v0.6.5)
 
 <details>
 <summary><b>Проверка файлов и состав поставки</b></summary>
 
-Веб-установщик и система обновления проверяют подпись метаданных **Ed25519** и контрольную сумму **SHA-256** пакета. Подписи Windows Authenticode пока нет, поэтому Windows может показать «Неизвестный издатель».
+Система обновления проверяет подпись метаданных **Ed25519** и контрольную сумму **SHA-256** пакета. Подписи Windows Authenticode пока нет, поэтому Windows может показать «Неизвестный издатель».
 
 В публичный комплект входят пять стандартных модулей: медиатека, медиаплеер, сцены, медиапэды и таймер. **Музыкальное лото поставляется отдельно**.
 
-Технические имена `EventStudiaSetup.exe` и `EventStudia_<версия>_x64-setup.exe` сохранены для прежних обновляторов. В текущем выпуске это копии установщиков Qventa.
 
 </details>
 
@@ -131,10 +133,9 @@ Qventa brings music, video, scenes and quick media triggers into one Windows app
 
 | Option | Download |
 | :--- | :--- |
-| **Web installer** — downloads the latest stable version | [QventaSetup.exe](https://github.com/xook303/qventa-releases/releases/latest/download/QventaSetup.exe) |
 | **Full installer** — for transferring to another computer | [Choose a file from the latest release](https://github.com/xook303/qventa-releases/releases/latest) → `Qventa_<version>_x64-setup.exe` |
 
-Run the installer, complete setup and open **Qventa** using its shortcut. The web installer requires internet access. If a suitable Microsoft Edge WebView2 Runtime is missing, setup may request a runtime download.
+Run the installer, complete setup and open **Qventa** using its shortcut. The full installer includes Microsoft Edge WebView2 Runtime and does not download additional setup components.
 
 ### Updates
 
@@ -142,15 +143,19 @@ Open **Settings → Updates → Check for updates**. When a new version is avail
 
 Save your project, stop media playback and close the audience display before updating. Schedule installation outside your live event.
 
-### New in 0.5.0
+### New in 0.6.5
 
-- New **Graphite Dark** theme with graphite surfaces, orange accents and consistent controls.
-- Compact icon navigation and refreshed library and player layouts.
-- Fixed-width playlist tabs, with artist and track title on separate lines.
-- A separate compact event-splash popup.
-- In-app release notes follow your selected interface language.
+- Updated media library with search, file type/BPM/duration filters, custom tags and configurable columns.
+- Columns can be reordered and resized. Title / Artist stays first. Settings persist and the table fits its module width.
+- Right-click tags to rename or delete them. Removed predefined demo tags.
+- Aligned typography, spacing and subtle separators with Qventa's graphite interface.
+- Equalizer opens inside the application. Changes apply automatically; sliders use a ±6 dB range and double-click resets a value to 0 dB.
+- Moved preset naming and saving to the top; updated preset selection and scrollbar styling.
+- Active EQ/DSP indicators are orange. The DSP master switch is now labelled Enable DSP.
+- Clarified module picker labels, removed blue surfaces and adjusted compact player spacing.
+- Retained normal shutdown fixes from 0.6.1.
 
-[**Full 0.5.0 release notes →**](https://github.com/xook303/qventa-releases/releases/tag/v0.5.0)
+[Changelog 0.6.5](https://github.com/xook303/qventa-releases/releases/tag/v0.6.5)
 
 <details>
 <summary><b>File verification and included modules</b></summary>
@@ -159,7 +164,6 @@ The web installer and update system verify **Ed25519** metadata signatures and t
 
 The public package includes five standard modules: Media Library, Media Player, Scenes, Media Pads and Timer. **Music Lotto is distributed separately**.
 
-The technical names `EventStudiaSetup.exe` and `EventStudia_<version>_x64-setup.exe` remain available for older updaters. In the current release, these files are copies of the Qventa installers.
 
 </details>
 
@@ -181,6 +185,6 @@ Found a problem? [Open an issue](https://github.com/xook303/qventa-releases/issu
 **Qventa · Музыка. Видео. Ваше мероприятие.**  
 **Qventa · Music. Video. Your event.**
 
-[Download](https://github.com/xook303/qventa-releases/releases/latest/download/QventaSetup.exe) · [Releases](https://github.com/xook303/qventa-releases/releases) · [Issues](https://github.com/xook303/qventa-releases/issues)
+[Download](https://github.com/xook303/qventa-releases/releases/latest) · [Releases](https://github.com/xook303/qventa-releases/releases) · [Issues](https://github.com/xook303/qventa-releases/issues)
 
 </div>
